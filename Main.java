@@ -1,9 +1,14 @@
-package myself.exer5;
+package cafe_project;
+
+import cafe_project.app.Mode;
+import cafe_project.gui.Gui;
 
 public class Main {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		Gui gui = new Gui();
 		
 		Mode mode = Mode.getMode();
 		

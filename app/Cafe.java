@@ -1,4 +1,4 @@
-package myself.exer5;
+package cafe_project.app;
 
 import java.util.ArrayList;
 import java.util.InputMismatchException;

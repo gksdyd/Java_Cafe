@@ -1,4 +1,4 @@
-package myself.exer5;
+package cafe_project.app;
 
 import java.util.ArrayList;
 import java.util.InputMismatchException;
@@ -6,9 +6,9 @@ import java.util.Scanner;
 
 public class Mode {
 	
-	final byte INIT = 0;
-	final byte ORDER = 1;
-	final byte WAITING_CHK = 2;
+	public final byte INIT = 0;
+	public final byte ORDER = 1;
+	public final byte WAITING_CHK = 2;
 	
 	private static Mode mode = new Mode();
 	
@@ -21,9 +21,9 @@ public class Mode {
 		return mode;
 	}
 	
-	final byte CUSTOMER = 1;
-	final byte ADMIN = 2;
-	final byte END = 3;
+	public final byte CUSTOMER = 1;
+	public final byte ADMIN = 2;
+	public final byte END = 3;
 	
 	private byte currMode = 0;
 	
@@ -169,7 +169,7 @@ public class Mode {
 		cafe.sumTotalPrice(selMenu, selCategoryIndex - 1);
 	}
 	
-	boolean closed = false;
+	public boolean closed = false;
 	public void isClosed() {
 		String isClosed;
 		

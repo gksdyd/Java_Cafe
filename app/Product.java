@@ -1,4 +1,4 @@
-package myself.exer5;
+package cafe_project.app;
 
 public class Product {
 
